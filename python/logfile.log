@@ -1,0 +1,7 @@
+2026-07-17 00:34:30,122 This is a debug message
+2026-07-17 00:35:15,371 print(f"Labour 4th Wage: {labour_4th_wage}")
+2026-07-17 00:36:28,901 print({labour_4th_wage})
+2026-07-17 00:39:05,118 print({labour_4th_wage})
+2026-07-17 00:39:35,488 print(800)
+2026-07-17 00:39:41,201 print(500)
+2026-07-17 00:40:35,026 print(800)
