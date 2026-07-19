@@ -25,53 +25,53 @@ print(current)
 
 
 
-# # count of even number and also the odd count nuumbers
-# count = 0
+# count of even number and also the odd count nuumbers
+count = 0
 
-# for i in numbers:
-#     if i%2==0:
-#         count = count +1
-# print(count)
+for i in numbers:
+    if i%2==0:
+        count = count +1
+print(count)
 
 
-# curr = 0
-# for i in numbers:
-#     if i%2==1:
-#         curr = curr +1
-# print(curr)
+curr = 0
+for i in numbers:
+    if i%2==1:
+        curr = curr +1
+print(curr)
     
 
-# num = [10,15,20,25,30]
+num = [10,15,20,25,30]
 
-# total = 0 
+total = 0 
 
-# for i in num:
-#     if i %2 ==0:
-#         total = total +i
-# print(total)
+for i in num:
+    if i %2 ==0:
+        total = total +i
+print(total)
 
-# num_1 = [10, 15, 22, 7, 30, 18]
-
-
-# largest = num_1[0]
-
-# for i in num_1:
-#     if i%2==0:
-#         if i > largest:
-#             largest = i
-# print(largest)
+num_1 = [10, 15, 22, 7, 30, 18]
 
 
+largest = num_1[0]
 
-# num_2 = [10, 15, 22, 7, 30, 18, 5]
+for i in num_1:
+    if i%2==0:
+        if i > largest:
+            largest = i
+print(largest)
 
-# smallest = num_2[0]
 
-# for i in num_2:
-#     if i%2==1:
-#         if i< smallest:
-#             smallest = i
-# print(smallest)
+
+num_2 = [10, 15, 22, 7, 30, 18, 5]
+
+smallest = num_2[0]
+
+for i in num_2:
+    if i%2==1:
+        if i< smallest:
+            smallest = i
+print(smallest)
 
     
 
