@@ -28,3 +28,38 @@ while (v>=2):
     logger.info(v)
     v = v-2
     
+
+# Print numbers from 7 to 15.
+
+
+i = 7
+while(i<=15):
+    logger.info(i)
+    i = i + 1
+
+
+# Print numbers from 20 down to 10.
+
+i = 20
+while (i>=10):
+    logger.info(i)
+    i = i-1
+
+
+# Print all odd numbers from 1 to 19.
+
+
+i = 1
+while(i%2 == 1 and i <=19):
+    logger.info(i)
+    i = i+ 2
+
+
+i = 1
+sum = 0
+
+while(i<=19):
+    logger.info(i)
+    sum = sum + i
+    i = i+2
+print(sum)
